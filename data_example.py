@@ -839,6 +839,9 @@ plattform_instance1 = {
 crop_instance1 = {
     "plattform_1 / Ideal CL10": plattform_instance1}
 
+# Crop instance 1 would then be weed
+crops_instance1 = {
+    "crop 1 / wheat": crop_instance1}
 
 pprint(crop_instance1)
-save_list_to_json(crop_instance1, "crop_wheat.json", overwrite_flag=True)
+save_list_to_json(crops_instance1, "crops_instance1.json", overwrite_flag=True)
