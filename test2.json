@@ -1,0 +1,279 @@
+[
+    {
+        "id": 1,
+        "label": "particle_simulation_dataset",
+        "children": [
+            {
+                "id": 2,
+                "label": "short_string: SwingFlow Tailboard CFD-DEM",
+                "children": []
+            },
+            {
+                "id": 3,
+                "label": "domains",
+                "children": [
+                    {
+                        "id": 4,
+                        "label": "domain_1 / Tailboard and Environment (Chopper Outlet -> Ground)",
+                        "children": [
+                            {
+                                "id": 5,
+                                "label": "phenoma",
+                                "children": [
+                                    {
+                                        "id": 6,
+                                        "label": "phenomenon_1 / Dynamic fluid flow coupled with granular medium",
+                                        "children": [
+                                            {
+                                                "id": 7,
+                                                "label": "general_solving_approach: CFD-DEM",
+                                                "children": []
+                                            },
+                                            {
+                                                "id": 8,
+                                                "label": "sub_phenomenon_1 / Turbulence",
+                                                "children": [
+                                                    {
+                                                        "id": 9,
+                                                        "label": "Wall treatment: Two-layer All y+*",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": 10,
+                                                "label": "sub_phenomenon_2 / DEM",
+                                                "children": [
+                                                    {
+                                                        "id": 11,
+                                                        "label": "Other Specifications: Inner iterations, solver settings....",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": 12,
+                                                "label": "sub_phenomenon_3 / Particle drag force",
+                                                "children": [
+                                                    {
+                                                        "id": 13,
+                                                        "label": "Projection method for particle area: STAR-CCM+ internal method utilizing octahedrons",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": 14,
+                                                "label": "sub_phenomenon_4 / Particle drag torque",
+                                                "children": [
+                                                    {
+                                                        "id": 15,
+                                                        "label": "general_solving_approach: Rotational drag coefficient formulation by Sommerfeld",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "id": 16,
+                                                "label": "sub_phenomenon_5 / Coupled flow",
+                                                "children": [
+                                                    {
+                                                        "id": 17,
+                                                        "label": "general_solving_approach: One-way coupling between eulerian and lagrangian phase",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 18,
+                                "label": "phases",
+                                "children": [
+                                    {
+                                        "id": 19,
+                                        "label": "lagrangian_phases",
+                                        "children": [
+                                            {
+                                                "id": 20,
+                                                "label": "lagrangian_phase_1 / Capsular chopped wheat straw",
+                                                "children": [
+                                                    {
+                                                        "id": 21,
+                                                        "label": "rho_p: 150",
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "id": 22,
+                                                        "label": "bodies",
+                                                        "children": [
+                                                            {
+                                                                "id": 23,
+                                                                "label": "bodie_1 / Capsular",
+                                                                "children": [
+                                                                    {
+                                                                        "id": 24,
+                                                                        "label": "geometrical_definition",
+                                                                        "children": [
+                                                                            {
+                                                                                "id": 25,
+                                                                                "label": "radius: 0.0018",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "id": 26,
+                                                                                        "label": "height",
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "id": 27,
+                                                                        "label": "poisson_coefficient: 0.45",
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "id": 28,
+                                                        "label": "lagrangian_injectors",
+                                                        "children": [
+                                                            {
+                                                                "id": 29,
+                                                                "label": "lagrangian_injector_1 / Chopper Inlet",
+                                                                "children": [
+                                                                    {
+                                                                        "id": 30,
+                                                                        "label": "Method: Normally distributed",
+                                                                        "children": [
+                                                                            {
+                                                                                "id": 31,
+                                                                                "label": "Standard deviation: [125.0, 125.0, 125.0]",
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "id": 32,
+                                                                        "label": "Method: Uniformly distributed",
+                                                                        "children": [
+                                                                            {
+                                                                                "id": 33,
+                                                                                "label": "Maximum: [6.28, 6.28, 6.28]",
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "id": 34,
+                                                                        "label": "Method: Normally distributed",
+                                                                        "children": [
+                                                                            {
+                                                                                "id": 35,
+                                                                                "label": "Standard deviation: [10.0, 0.0, 0.0]",
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": 36,
+                                        "label": "wall_phases",
+                                        "children": [
+                                            {
+                                                "id": 37,
+                                                "label": "wall_phase_1 / Sheet metal steel",
+                                                "children": [
+                                                    {
+                                                        "id": 38,
+                                                        "label": "specific_physic_constants",
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": 39,
+                                        "label": "eulerian_phases",
+                                        "children": [
+                                            {
+                                                "id": 40,
+                                                "label": "p_f: 101325",
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": 41,
+                                        "label": "phase_interactions",
+                                        "children": [
+                                            {
+                                                "id": 42,
+                                                "label": "Tangential spring stiffness Kt [Nm]: 1000",
+                                                "children": []
+                                            },
+                                            {
+                                                "id": 43,
+                                                "label": "Tangential spring stiffness Kt [Nm]: 40000",
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 44,
+                                "label": "Gradients: Hybrid Gauss-LSQ",
+                                "children": []
+                            },
+                            {
+                                "id": 45,
+                                "label": "Inner Iterations: 2",
+                                "children": []
+                            },
+                            {
+                                "id": 46,
+                                "label": "domain_motions",
+                                "children": [
+                                    {
+                                        "id": 47,
+                                        "label": "Equation: Stationary",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 48,
+                                        "label": "Equation: $\\omega_{Spn}= 2 \\pi n_{Spn}$**, turning_speed_tailbord_spinners\t166.5 radian/s",
+                                        "children": []
+                                    },
+                                    {
+                                        "id": 49,
+                                        "label": "Equation: **ParameterName\tValue**\namplitude_flap_centre\t0.40142573 radian\namplitude_flaps_left_right\t0.3665914 radian\nturning_speed_engine_flaps\t9.21533845 radian/s\n**FieldFunctionName\tValue**\nOscillation_flap_centre\t-1*[$(amplitude_flap_centre)sin($(turning_speed_engine_flaps)$(Time))]\nOscillation_flap_left_right\t-1*[$(amplitude_flaps_left_right)sin($(turning_speed_engine_flaps)$(Time))]-0.03490659",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 50,
+                                "label": "Solver device: CPU (singlethreading and parallel computing supported)",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,285 @@
+[
+    {
+        "id": 1,
+        "label": "wheat",
+        "children": [
+            {
+                "id": 2,
+                "label": "plattform_1 / Ideal CL10",
+                "children": [
+                    {
+                        "id": 3,
+                        "label": "subsystem_1 / Residue Management",
+                        "children": [
+                            {
+                                "id": 4,
+                                "label": "specific_process_application_1 / Tailboard",
+                                "children": [
+                                    {
+                                        "id": 5,
+                                        "label": "software_version: v.18.06.007 resp. 2310.0001",
+                                        "children": [
+                                            {
+                                                "id": 6,
+                                                "label": "version: v1.0 Christian Korn TUD PhD thesis xx.x.2020",
+                                                "children": [
+                                                    {
+                                                        "id": 7,
+                                                        "label": "particle_simulation_dataset",
+                                                        "children": [
+                                                            {
+                                                                "id": 8,
+                                                                "label": "short_string: SwingFlow Tailboard CFD-DEM",
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "id": 9,
+                                                                "label": "domains",
+                                                                "children": [
+                                                                    {
+                                                                        "id": 10,
+                                                                        "label": "domain_1 / Tailboard and Environment (Chopper Outlet -> Ground)",
+                                                                        "children": [
+                                                                            {
+                                                                                "id": 11,
+                                                                                "label": "phenoma",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "id": 12,
+                                                                                        "label": "phenomenon_1 / Dynamic fluid flow coupled with granular medium",
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "id": 24,
+                                                                                "label": "phases",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "id": 25,
+                                                                                        "label": "lagrangian_phases",
+                                                                                        "children": []
+                                                                                    },
+                                                                                    {
+                                                                                        "id": 42,
+                                                                                        "label": "wall_phases",
+                                                                                        "children": []
+                                                                                    },
+                                                                                    {
+                                                                                        "id": 45,
+                                                                                        "label": "eulerian_phases",
+                                                                                        "children": []
+                                                                                    },
+                                                                                    {
+                                                                                        "id": 47,
+                                                                                        "label": "phase_interactions",
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "id": 50,
+                                                                                "label": "Gradients: Hybrid Gauss-LSQ",
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "id": 51,
+                                                                                "label": "Inner Iterations: 2",
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "id": 52,
+                                                                                "label": "domain_motions",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "id": 53,
+                                                                                        "label": "Stationary_domain",
+                                                                                        "children": []
+                                                                                    },
+                                                                                    {
+                                                                                        "id": 54,
+                                                                                        "label": "constantRotation_spinners",
+                                                                                        "children": []
+                                                                                    },
+                                                                                    {
+                                                                                        "id": 55,
+                                                                                        "label": "sinusoidalRotation_deflectors",
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "id": 56,
+                                                                                "label": "Solver device: CPU (singlethreading and parallel computing supported)",
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": 57,
+                                        "label": "software_version: v.1.0",
+                                        "children": [
+                                            {
+                                                "id": 58,
+                                                "label": "version: v1.0 Moritz Schaller Diploma thesis 30.09.2024",
+                                                "children": [
+                                                    {
+                                                        "id": 59,
+                                                        "label": "particle_simulation_dataset",
+                                                        "children": [
+                                                            {
+                                                                "id": 60,
+                                                                "label": "short_string: 2023 Mockup PyBullet",
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "id": 61,
+                                                                "label": "domains",
+                                                                "children": [
+                                                                    {
+                                                                        "id": 62,
+                                                                        "label": "domain_1 / Tailboard cutoff (Chopper Outlet -> Tailboard close AABB)",
+                                                                        "children": [
+                                                                            {
+                                                                                "id": 63,
+                                                                                "label": "phenoma",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "id": 64,
+                                                                                        "label": "phenomen_1 / Rigid body simulation",
+                                                                                        "children": []
+                                                                                    },
+                                                                                    {
+                                                                                        "id": 66,
+                                                                                        "label": "phenomen_2 / Particle drag force",
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "id": 68,
+                                                                                "label": "phases",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "id": 69,
+                                                                                        "label": "lagrangian_phases",
+                                                                                        "children": []
+                                                                                    },
+                                                                                    {
+                                                                                        "id": 86,
+                                                                                        "label": "wall_phases",
+                                                                                        "children": []
+                                                                                    },
+                                                                                    {
+                                                                                        "id": 89,
+                                                                                        "label": "eulerian_phases",
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "id": 91,
+                                                                                "label": "Inner Iterations: 50",
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "id": 92,
+                                                                                "label": "domain_motions",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "id": 93,
+                                                                                        "label": "Stationary_domain",
+                                                                                        "children": []
+                                                                                    },
+                                                                                    {
+                                                                                        "id": 94,
+                                                                                        "label": "constantRotation_spinners",
+                                                                                        "children": []
+                                                                                    },
+                                                                                    {
+                                                                                        "id": 95,
+                                                                                        "label": "sinusoidalRotation_deflectors",
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "id": 96,
+                                                                                "label": "Solver device: CPU (singlethreading), GPU (discontinued)",
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "id": 97,
+                                                                        "label": "domain_2 / Environment (Particle flight trajectories from Tailboard close AABB -> Ground)",
+                                                                        "children": [
+                                                                            {
+                                                                                "id": 98,
+                                                                                "label": "phenoma",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "id": 99,
+                                                                                        "label": "phenomenon_1 / Point mass kinematic under influence of gravity and drag force based on distance based drag discount",
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "id": 109,
+                                                                                "label": "phases",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "id": 110,
+                                                                                        "label": "lagrangian_phases",
+                                                                                        "children": []
+                                                                                    },
+                                                                                    {
+                                                                                        "id": 127,
+                                                                                        "label": "wall_phases",
+                                                                                        "children": []
+                                                                                    },
+                                                                                    {
+                                                                                        "id": 130,
+                                                                                        "label": "eulerian_phases",
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "id": 132,
+                                                                                "label": "Physical time step: 0.001",
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "id": 133,
+                                                                                "label": "Solver device: CPU (singlethreading)",
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['..\\straw\\moritzfunctions\\moritzfunctions.py', 'mongo1.py', 'data_example.py', '..\\straw\\pb_sf\\pb_sf.py']
+recent_files = ['..\\straw\\moritzfunctions\\moritzfunctions.py', 'mongo1.py', 'data_example.py', '..\\straw\\pb_sf\\pb_sf.py', 'examples\\menu_and_tabs\\main.py', 'examples\\slots\\main.py', 'examples\\modularization\\main.py']
 
 [main]
 version = 0.2.0

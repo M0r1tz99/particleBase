@@ -159,7 +159,8 @@ due to variable logic.
 general_info_instance7 = {
     "info_string": "SwingFlow Tailboard in CFD-DEM with Star-CCM+ (Christian Korn, partly based on PhD)",
     "intended_purpose": "Understanding and Feasiblitly study of creating STAR CFD-DEM simulations for the Residue Management",
-    "refferences": "*LINK OR DIRECT FILE FOR PHD, POWERPOINTS* - each with comments"
+    "refferences": "*LINK OR DIRECT FILE FOR PHD, POWERPOINTS* - each with comments",
+    "short_string": "SwingFlow Tailboard CFD-DEM"
     }
 
 
@@ -517,7 +518,8 @@ particle_simulation_dataset_instance1 = {
 general_info_instance15 = {
     "info_string": "Mockup Premium Tailboard as possible candidate for CR-29P in opensource simulation Python scripts utilizing Bullet physics engine and custom equation system based on Diploma thesis Moritz Schaller 'Alternative particle simulation methods for combine harvesters with actively controlled residue spreading device'",
     "intended_purpose": "Feasiblitly study for utilization of open source software based on a game physics engine as alternative to STAR CFD-DEM simulations for the Residue Management",
-    "refferences": "*LINK OR DIRECT FILE FOR PHD, POWERPOINTS* - each with comments"
+    "refferences": "*LINK OR DIRECT FILE FOR PHD, POWERPOINTS* - each with comments",
+    "short_string": "2023 Mockup PyBullet"
     }
 
 # pyBullet specific data of the capsular straw
